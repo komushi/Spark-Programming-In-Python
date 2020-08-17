@@ -11,7 +11,7 @@ def load_survey_df(spark, data_file):
 
 
 def count_by_country(survey_df):
-    return survey_df.filter("Age < 40") \
+    return survey_df.filter("Age > 0") \
         .select("Age", "Gender", "Country", "state") \
         .groupBy("Country") \
         .count()

@@ -23,6 +23,6 @@ if __name__ == "__main__":
         .csv(sys.argv[1])
 
     surveyDF.createOrReplaceTempView("survey_tbl")
-    countDF = spark.sql("select Country, count(1) as count from survey_tbl where Age<40 group by Country")
+    countDF = spark.sql("select Country, count(1) as count from survey_tbl where Age>0 group by Country")
 
     countDF.show()

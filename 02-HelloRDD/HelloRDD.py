@@ -34,4 +34,5 @@ if __name__ == "__main__":
 
     colsList = countRDD.collect()
     for x in colsList:
-        logger.info(x)
+        print(x)
+        # logger.info(x)

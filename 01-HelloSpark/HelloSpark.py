@@ -11,6 +11,7 @@ if __name__ == "__main__":
         .appName("HelloSpark") \
         .master("local[2]") \
         .getOrCreate()
+    
 
     logger = Log4j(spark)
 

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2735f7aa-4c5a-4445-8a6c-8489c01d2d1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/04-SparkSchemaDemo/SparkSchemaDemo2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-HelloSpark/HelloSpark.py" beforeDir="false" afterPath="$PROJECT_DIR$/01-HelloSpark/HelloSpark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-HelloSpark/data/sample.csv" beforeDir="false" afterPath="$PROJECT_DIR$/01-HelloSpark/data/sample.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-HelloSpark/lib/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/01-HelloSpark/lib/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-HelloRDD/HelloRDD.py" beforeDir="false" afterPath="$PROJECT_DIR$/02-HelloRDD/HelloRDD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-HelloSparkSQL/HelloSparkSQL.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-HelloSparkSQL/HelloSparkSQL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-SparkSchemaDemo/SparkSchemaDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/04-SparkSchemaDemo/SparkSchemaDemo.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="db769862-5a19-4408-99d9-5738d32af969" />
+  <component name="ProjectId" id="1g26crz1EvUNCeus56L7awbwPg6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/04-SparkSchemaDemo" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/04-SparkSchemaDemo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.SparkSchemaDemo2">
+    <configuration name="21-plot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Spark-Programming-In-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.anyenv/envs/pyenv/versions/anaconda3-5.3.1/envs/3.7/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21-PandaTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21-PandaTest/21-plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HelloRDD" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Spark-Programming-In-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02-HelloRDD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02-HelloRDD/HelloRDD.py" />
+      <option name="PARAMETERS" value="data/sample.csv" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HelloSparkSQL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Spark-Programming-In-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-HelloSparkSQL" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-HelloSparkSQL/HelloSparkSQL.py" />
+      <option name="PARAMETERS" value="data/sample.csv" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SparkSchemaDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Spark-Programming-In-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.anyenv/envs/pyenv/versions/anaconda3-5.3.1/envs/3.7/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04-SparkSchemaDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04-SparkSchemaDemo/SparkSchemaDemo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SparkSchemaDemo2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Spark-Programming-In-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.anyenv/envs/pyenv/versions/anaconda3-5.3.1/envs/3.7/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04-SparkSchemaDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04-SparkSchemaDemo/SparkSchemaDemo2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Spark-Programming-In-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.anyenv/envs/pyenv/versions/anaconda3-5.3.1/envs/3.7/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hellospark" type="PythonConfigurationType" factoryName="Python">
+      <module name="Spark-Programming-In-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.anyenv/envs/pyenv/versions/anaconda3-5.3.1/envs/3.7/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01-HelloSpark" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01-HelloSpark/HelloSpark.py" />
+      <option name="PARAMETERS" value="data/sample.csv" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.hellospark" />
+      <item itemvalue="Python.21-plot" />
+      <item itemvalue="Python.HelloRDD" />
+      <item itemvalue="Python.HelloSparkSQL" />
+      <item itemvalue="Python.SparkSchemaDemo" />
+      <item itemvalue="Python.SparkSchemaDemo2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.SparkSchemaDemo2" />
+        <item itemvalue="Python.SparkSchemaDemo" />
+        <item itemvalue="Python.HelloSparkSQL" />
+        <item itemvalue="Python.HelloRDD" />
+        <item itemvalue="Python.21-plot" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2735f7aa-4c5a-4445-8a6c-8489c01d2d1f" name="Default Changelist" comment="" />
+      <created>1597300423470</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597300423470</updated>
+      <workItem from="1597369160347" duration="544000" />
+      <workItem from="1597369787181" duration="3454000" />
+      <workItem from="1597384595613" duration="157000" />
+      <workItem from="1597386961439" duration="12723000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="handson" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="handson" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="854" y="483" key="#Notifications" timestamp="1597367184497">
+      <screen x="0" y="23" width="2048" height="1257" />
+    </state>
+    <state x="854" y="483" key="#Notifications/0.23.2048.1257@0.23.2048.1257" timestamp="1597367184497" />
+    <state x="503" y="439" width="1071" height="841" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597403220829">
+      <screen x="0" y="23" width="2048" height="1257" />
+    </state>
+    <state x="503" y="439" width="1071" height="841" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2048.1257@0.23.2048.1257" timestamp="1597403220829" />
+    <state x="745" y="462" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597403716866">
+      <screen x="0" y="23" width="2048" height="1257" />
+    </state>
+    <state x="745" y="462" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2048.1257@0.23.2048.1257" timestamp="1597403716866" />
+    <state x="784" y="408" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597626008962">
+      <screen x="0" y="23" width="2048" height="1257" />
+    </state>
+    <state x="784" y="408" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2048.1257@0.23.2048.1257" timestamp="1597626008962" />
+    <state x="796" y="351" key="#xdebugger.XInspectDialog" timestamp="1597371550266">
+      <screen x="0" y="23" width="2048" height="1257" />
+    </state>
+    <state x="796" y="351" key="#xdebugger.XInspectDialog/0.23.2048.1257@0.23.2048.1257" timestamp="1597371550266" />
+    <state width="1779" height="330" key="GridCell.Tab.0.bottom" timestamp="1597627183155">
+      <screen x="0" y="23" width="2048" height="1257" />
+    </state>
+    <state width="1779" height="330" key="GridCell.Tab.0.bottom/0.23.2048.1257@0.23.2048.1257" timestamp="1597627183155" />
+    <state width="1779" height="330" key="GridCell.Tab.0.center" timestamp="1597627183154">
+      <screen x="0" y="23" width="2048" height="1257" />
+    </state>
+    <state width="1779" height="330" key="GridCell.Tab.0.center/0.23.2048.1257@0.23.2048.1257" timestamp="1597627183154" />
+    <state width="1779" height="330" key="GridCell.Tab.0.left" timestamp="1597627183154">
+      <screen x="0" y="23" width="2048" height="1257" />
+    </state>
+    <state width="1779" height="330" key="GridCell.Tab.0.left/0.23.2048.1257@0.23.2048.1257" timestamp="1597627183154" />
+    <state width="1779" height="330" key="GridCell.Tab.0.right" timestamp="1597627183155">
+      <screen x="0" y="23" width="2048" height="1257" />
+    </state>
+    <state width="1779" height="330" key="GridCell.Tab.0.right/0.23.2048.1257@0.23.2048.1257" timestamp="1597627183155" />
+    <state width="1779" height="396" key="GridCell.Tab.1.bottom" timestamp="1597626916720">
+      <screen x="0" y="23" width="2048" height="1257" />
+    </state>
+    <state width="1779" height="396" key="GridCell.Tab.1.bottom/0.23.2048.1257@0.23.2048.1257" timestamp="1597626916720" />
+    <state width="1779" height="396" key="GridCell.Tab.1.center" timestamp="1597626916720">
+      <screen x="0" y="23" width="2048" height="1257" />
+    </state>
+    <state width="1779" height="396" key="GridCell.Tab.1.center/0.23.2048.1257@0.23.2048.1257" timestamp="1597626916720" />
+    <state width="1779" height="396" key="GridCell.Tab.1.left" timestamp="1597626916720">
+      <screen x="0" y="23" width="2048" height="1257" />
+    </state>
+    <state width="1779" height="396" key="GridCell.Tab.1.left/0.23.2048.1257@0.23.2048.1257" timestamp="1597626916720" />
+    <state width="1779" height="396" key="GridCell.Tab.1.right" timestamp="1597626916720">
+      <screen x="0" y="23" width="2048" height="1257" />
+    </state>
+    <state width="1779" height="396" key="GridCell.Tab.1.right/0.23.2048.1257@0.23.2048.1257" timestamp="1597626916720" />
+    <state x="262" y="214" width="1399" height="722" key="SettingsEditor" timestamp="1597398589546">
+      <screen x="0" y="23" width="2048" height="1257" />
+    </state>
+    <state x="262" y="214" width="1399" height="722" key="SettingsEditor/0.23.2048.1257@0.23.2048.1257" timestamp="1597398589546" />
+    <state x="624" y="391" key="Vcs.Push.Dialog.v2" timestamp="1597300640048">
+      <screen x="0" y="23" width="2048" height="1257" />
+    </state>
+    <state x="624" y="391" key="Vcs.Push.Dialog.v2/0.23.2048.1257@0.23.2048.1257" timestamp="1597300640048" />
+    <state x="726" y="295" width="596" height="711" key="find.popup" timestamp="1597319174620">
+      <screen x="0" y="23" width="2048" height="1257" />
+    </state>
+    <state x="726" y="295" width="596" height="711" key="find.popup/0.23.2048.1257@0.23.2048.1257" timestamp="1597319174620" />
+    <state x="711" y="328" width="670" height="676" key="search.everywhere.popup" timestamp="1597626089755">
+      <screen x="0" y="23" width="2048" height="1257" />
+    </state>
+    <state x="711" y="328" width="670" height="676" key="search.everywhere.popup/0.23.2048.1257@0.23.2048.1257" timestamp="1597626089755" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/02-HelloRDD/HelloRDD.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="partitionedRDD" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Spark_Programming_In_Python$pytest_in__.coverage" NAME="pytest in / Coverage Results" MODIFIED="1597370899899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Spark_Programming_In_Python$HelloRDD.coverage" NAME="HelloRDD Coverage Results" MODIFIED="1597400504730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-HelloRDD" />
+    <SUITE FILE_PATH="coverage/Spark_Programming_In_Python$SparkSchemaDemo2.coverage" NAME="SparkSchemaDemo2 Coverage Results" MODIFIED="1597627183145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-SparkSchemaDemo" />
+    <SUITE FILE_PATH="coverage/Spark_Programming_In_Python$21_df.coverage" NAME="21-df Coverage Results" MODIFIED="1597371474362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21-PandaTest" />
+    <SUITE FILE_PATH="coverage/Spark_Programming_In_Python$21_plot.coverage" NAME="21-plot Coverage Results" MODIFIED="1597373482519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/21-PandaTest" />
+    <SUITE FILE_PATH="coverage/Spark_Programming_In_Python$HelloSparkSQL.coverage" NAME="HelloSparkSQL Coverage Results" MODIFIED="1597423679629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-HelloSparkSQL" />
+    <SUITE FILE_PATH="coverage/Spark_Programming_In_Python$hellospark.coverage" NAME="hellospark Coverage Results" MODIFIED="1597371425875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01-HelloSpark" />
+    <SUITE FILE_PATH="coverage/Spark_Programming_In_Python$SparkSchemaDemo.coverage" NAME="SparkSchemaDemo Coverage Results" MODIFIED="1597626591841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-SparkSchemaDemo" />
+  </component>
+</project>

@@ -1,5 +1,6 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.types import StructType, StructField, DateType, StringType, IntegerType
+from pyspark.sql.types import StructType, ArrayType, StructField, DateType, StringType, IntegerType, DecimalType
+import json
 
 from lib.logger import Log4j
 
@@ -42,6 +43,8 @@ if __name__ == "__main__":
         .option("dateFormat", "M/d/y") \
         .load("data/flight*.csv")
 
+    # flightTimeCsvDF.printSchema()
+
     flightTimeCsvDF.show(5)
     logger.info("CSV Schema:" + flightTimeCsvDF.schema.simpleString())
 
@@ -58,5 +61,59 @@ if __name__ == "__main__":
         .format("parquet") \
         .load("data/flight*.parquet")
 
+    # flightTimeParquetDF.printSchema()
+
     flightTimeParquetDF.show(5)
     logger.info("Parquet Schema:" + flightTimeParquetDF.schema.simpleString())
+
+    cms1JsonSchemaStruct = StructType([
+        StructField("messageid", StringType()),
+        StructField("simulationid", StringType()),
+        StructField("creationtimestamp", DateType()),
+        StructField("sendtimestamp", DateType()),
+        StructField("vin", StringType()),
+        StructField("tripid", StringType()),
+        StructField("driverid", StringType()),
+        StructField("geolocation", StructType([
+            StructField("latitude", DecimalType()),
+            StructField("longitude", DecimalType()),
+            StructField("altitude", IntegerType()),
+            StructField("heading", DecimalType()),
+            StructField("speed", IntegerType()),
+            StructField("location", ArrayType(DecimalType())),
+        ])),
+    ])
+
+    cms1JsonDF = spark.read \
+        .format("json") \
+        .schema(cms1JsonSchemaStruct) \
+        .option("dateFormat", "yyyy-MM-dd'T'HH:mm:ss[.SSS]'Z'") \
+        .load("data/cms1.json")
+
+    # cms1JsonDF.printSchema()
+
+    cms1JsonDF.show()
+
+    cms2JsonSchemaStruct = StructType([
+        StructField("objectid", StringType()),
+        StructField("type", StringType()),
+        StructField("event", StringType()),
+        StructField("time", DateType())
+    ])
+
+    cms2JsonDF = spark.read \
+        .format("json") \
+        .schema(cms2JsonSchemaStruct) \
+        .option("dateFormat", "yyyy-MM-dd'T'HH:mm:ss[.SSS]'Z'") \
+        .load("data/cms2.json")
+
+    # cms2JsonDF.printSchema()
+
+    cms2JsonDF.show()
+
+    schemaJson = cms1JsonDF.schema.json()
+
+    with open('data/cms1Schema.json', 'w', encoding='utf-8') as f:
+        f.write(str(schemaJson))
+        # alternatives:
+        # json.dump(json.loads(schemaJson), f, ensure_ascii=False, indent=4)
